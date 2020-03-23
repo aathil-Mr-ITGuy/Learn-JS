@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID 19 - Curfew | Small exercises</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pie Chart</h1>
+    <canvas id="covidChart" style="width:500px !important"></canvas>
+
+    <div class="input-block">
+        <label for="total_input">Total Cases</label>
+        <input type="text"
+                name="total_input"
+                class="total_input"
+                placeholder="Total Cases"
+        />
+    </div>
+
+    <div class="input-block">
+        <label for="confirm_input">Confirmed Cases</label>
+        <input type="text"
+                name="confirm_input"
+                class="confirm_input"
+                placeholder="Confirmed Cases"
+        />
+    </div>
+
+    <div class="input-block">
+        <label for="recover_input">Recovered</label>
+        <input type="text"
+                name="recover_input"
+                class="recover_input"
+                placeholder="Recovered"
+        />
+    </div>
+
+    <div class="footer">
+        <p>
+            Designed by 'Aathil Ahamed' with &#128147;
+        </p>
+        
+    </div>
+
+    <!-- scripts | Chart.js-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+	<script src="script.js"></script>
+
+    
+</body>
+</html>
