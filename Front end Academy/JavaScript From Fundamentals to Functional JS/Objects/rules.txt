@@ -1,0 +1,23 @@
+                        Objects
+
+                        The Rules
+
+Dots
+-----
+-> Strings
+X numbers
+X quotations
+X weird characters
+X expressions
+
+Brackets
+--------
+-> Strings
+-> numbers
+-> variables
+-> weird characters
+-> expressions
+
+*
+-> Can use
+X  Can't use

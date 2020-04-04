@@ -1,0 +1,7 @@
+-> What is an object?
+    ** defined as unordered collection of related data
+    ** kind of document
+
+-> Difference between bracket and dot notation
+    ** Bracket notation allows special characters in the name
+    ** Dot notation is faster than bracket notation
